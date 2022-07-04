@@ -1,0 +1,13 @@
+.home-card {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.home-card-top {
+    padding: 20px 10px;
+}
+
+.car-image img {
+    width: 44px;
+}
