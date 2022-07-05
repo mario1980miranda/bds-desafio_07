@@ -1,3 +1,4 @@
+import './styles.css';
 import { ReactComponent as CarMainImage } from 'assets/images/car-home.svg';
 
 const Home = () => {

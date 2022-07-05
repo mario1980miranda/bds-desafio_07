@@ -1,11 +1,14 @@
 .home-card {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     padding: 20px 10px;
+    border: 1px solid blue;
 }
 
 .home-card-top {
-    padding: 20px 10px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .car-image img {
