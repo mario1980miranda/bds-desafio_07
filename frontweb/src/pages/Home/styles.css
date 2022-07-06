@@ -1,16 +1,48 @@
-.home-card {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.home-container {
     padding: 20px 10px;
+    font-size: 22px;
+    border: 1px solid red;
+}
+
+.home-top-card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #00285F;
+    margin-bottom: 20px;
+    border: 1px solid green;
+}
+
+.home-top-card h2 {
+    color: #FFF;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.home-top-card p {
+    color: #FFF;
+    font-size: 0.6em;
+}
+
+.home-bottom-card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
     border: 1px solid blue;
 }
 
-.home-card-top {
-    margin-bottom: 15px;
-    text-align: center;
+.home-bottom-card button {
+    width: 80%;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #00285F;
 }
 
-.car-image img {
-    width: 44px;
+.home-bottom-card p {
+    color: #585858;
+    font-size: 0.8em;
 }
