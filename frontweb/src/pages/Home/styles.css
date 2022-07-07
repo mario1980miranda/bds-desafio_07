@@ -99,7 +99,7 @@
         font-size: 42px;
     }
     .home-top-card {
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: row-reverse;
     }
 
@@ -110,14 +110,25 @@
 
     .home-top-card h2 {
         text-align: left;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .home-top-card p {
         text-align: left;
+        font-size: 20px;
     }
 
     .home-bottom-card button {
         width: 180px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .home-top-card h2 {
+        width: 480px;
+    }
+
+    .home-top-card p {
+        width: 480px;
     }
 }
