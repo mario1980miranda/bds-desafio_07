@@ -1,0 +1,36 @@
+.catalog-container {
+    padding: 20px;
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.search-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    background-color: #edededbd;
+}
+
+.search-card input {
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.search-card h2 {
+    height: 40px;
+    padding: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: -1px;
+    color: #FFF;
+    background-color: #00285F;
+    border-radius: 0 5px 5px 0;
+}

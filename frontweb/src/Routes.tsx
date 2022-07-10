@@ -1,4 +1,5 @@
 import Navbar from "components/Navbar";
+import Catalog from "pages/Catalog";
 import Home from "pages/Home";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -8,6 +9,9 @@ const Routes = () => (
         <Switch>
             <Route path="/" exact>
                 <Home />
+            </Route>
+            <Route path="/products" >
+                <Catalog />
             </Route>
         </Switch>
     </BrowserRouter>
