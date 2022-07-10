@@ -9,16 +9,31 @@ const Catalog = () => {
         <h2>Buscar</h2>
       </div>
       <div className="row">
-        <div className="col-md-6 col-lg-4 col-xl-4">
+        <div className="col-sm-6 col-lg-4 col-xl-4">
             <ProductCard />
         </div>
-        <div className="col-md-6 col-lg-4 col-xl-4">
+        <div className="col-sm-6 col-lg-4 col-xl-4">
             <ProductCard />
         </div>
-        <div className="col-md-6 col-lg-4 col-xl-4">
+        <div className="col-sm-6 col-lg-4 col-xl-4">
             <ProductCard />
         </div>
-        <div className="col-md-6 col-lg-4 col-xl-4">
+        <div className="col-sm-6 col-lg-4 col-xl-4">
+            <ProductCard />
+        </div>
+        <div className="col-sm-6 col-lg-4 col-xl-4">
+            <ProductCard />
+        </div>
+        <div className="col-sm-6 col-lg-4 col-xl-4">
+            <ProductCard />
+        </div>
+        <div className="col-sm-6 col-lg-4 col-xl-4">
+            <ProductCard />
+        </div>
+        <div className="col-sm-6 col-lg-4 col-xl-4">
+            <ProductCard />
+        </div>
+        <div className="col-sm-6 col-lg-4 col-xl-4">
             <ProductCard />
         </div>
       </div>

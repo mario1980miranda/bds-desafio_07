@@ -11,9 +11,7 @@ const ProductCard = () => {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
         expedita.
       </p>
-      <button>
-        <h6>Comprar</h6>
-      </button>
+      <button>Comprar</button>
     </div>
   );
 };

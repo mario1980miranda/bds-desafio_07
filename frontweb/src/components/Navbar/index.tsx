@@ -10,7 +10,7 @@ const Navbar = () => {
           <h4>Carros Top</h4>
         </Link>
         <button
-          className="navbar-toggler custom-toggler"
+          className="navbar-toggler custom-toggler text-right"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#carrostop-navbar"
@@ -21,9 +21,9 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="carrostop-navbar">
-          <ul className="navbar-nav offset-md-2 main-menu">
-            <li>
+        <div className="collapse navbar-collapse flex-grow-1 text-right" id="carrostop-navbar">
+          <ul className="navbar-nav offset-md-2 ms-auto flex-nowrap main-menu">
+            <li className="nav-item">
               <NavLink to="/" activeClassName="active" exact>
                 HOME
               </NavLink>
